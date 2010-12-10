@@ -1,0 +1,20 @@
+.czechbox {
+  background: transparent url("../images/checkbox-sprite.png") no-repeat 0 -20px;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  text-indent: -9999em;
+  width: 24px;
+}
+
+.czechbox.checked {
+  background-position: 0 0;
+}
+
+.czechbox.checked.down {
+  background-position: 0 -40px;
+}
+
+.czechbox.down {
+  background-position: 0 -60px;
+}
